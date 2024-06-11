@@ -1,6 +1,7 @@
 {
   "name": "teste2-xls",
   "version": "1.1.0",
+  "description": "Uma descrição válida para o meu projeto",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
