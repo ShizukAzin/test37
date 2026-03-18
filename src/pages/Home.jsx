@@ -22,10 +22,18 @@ const Home = () => {
 }
 
  return(
-    <div>
-        <h1>Movimento de terceiro de débito</h1>
-        <button onClick={jsonToTxT}>Baixar .txt</button>
-        <XlsxToJson />
+    <div className="page-shell">
+        <section className="hero-section">
+            <div>
+                <p className="eyebrow">Conversão de planilha</p>
+                <h1>Movimento de terceiro de débito</h1>
+                <p className="hero-copy">Faça o upload da planilha, visualize o conteúdo formatado e baixe o TXT final de forma mais organizada.</p>
+            </div>
+            <button className="hero-button" onClick={jsonToTxT}>Baixar .txt</button>
+        </section>
+        <section className="content-card">
+            <XlsxToJson />
+        </section>
     </div>
  );
 }
